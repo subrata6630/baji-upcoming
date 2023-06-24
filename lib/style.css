@@ -72,7 +72,6 @@ body{
   text-decoration: none;
   padding: 8px 15px 8px 30px;
   font-size: 18px;
-  /*border-right: 1px solid #7f7f7f;*/
   position: relative;
 }
 
@@ -95,9 +94,7 @@ body{
   width: 100%;
   margin-bottom: 10px;
 }
-.search-row-table tr td{
-  
-}
+
 .be-agent-btn{
   padding: 5px 12px;
   background: rgb(100,100,200);
@@ -111,9 +108,6 @@ body{
 .search-row-table tr td:first-of-type{
   width: 48%;
   text-align: right;
-}
-.search-row-table tr td:last-of-type{
-
 }
 
 
@@ -199,13 +193,13 @@ body{
   font-weight: 900;
 }
 
-.chart-details{
-  padding: 5px 20px;
+.chart-title {
+  padding: 20px 20px 5px 20px;
   background: #777;
-  color: #ccc;
-  border-bottom: 1px solid #999;
-  font-size: 14px;
+  color: #fff;
+  font-size: 26px;
   font-weight: 900;
+  TEXT-ALIGN: CENTER;
 }
 .chart table{
    border-collapse: collapse;
@@ -231,13 +225,16 @@ body{
    border: 1px solid #555;
    text-align: center;
 }
-.chart table tr td img{
-   height: 30px;
+.chart table tr td img {
+  height: 26px;
+  width: 30px;
+  margin: -1px;
 }
 .chart table tr td a{
    text-decoration: none;
    color: #7d0;
    font-weight: 700;
+   font-size: 17px;
 }
 /*
 .chart .span1{
@@ -256,3 +253,6 @@ body{
     padding: 56px;
 }
 
+.imgtext{
+  margin: -38px;
+}
